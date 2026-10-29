@@ -8,12 +8,12 @@ namespace Infrastructure.Repositories;
 public class StudentRepository(AppDbContext appDbContext) : IStudentRepository
 {
     private AppDbContext _context = appDbContext;
-    public bool AddStudent(Student student)
+    public async Task<bool> AddStudentAsync(Student student)
     {
         using var connection = _context.Connection();
         connection.Open();
         var query = "insert into students(fullname, email, phone, enrollmentdate) values(@fullname, @email, @phone, @enrollmentdate)";
-        var result = connection.Execute(query, student);
+        var result = await connection.ExecuteAsync(query, student);
         return result>0;
     }
 

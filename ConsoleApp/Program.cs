@@ -46,7 +46,7 @@ while (true)
                 Phone = phone,
                 EnrollmentDate = DateOnly.FromDateTime(enrollmentDate)
             };
-            studentService.AddStudent(student);
+            await studentService.AddStudent(student);
             break;
         case "4":
             System.Console.Write("Enter id: ");

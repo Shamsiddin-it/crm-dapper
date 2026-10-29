@@ -4,7 +4,7 @@ namespace Domain.Interfaces;
 
 public interface IStudentRepository
 {
-    bool AddStudent(Student student);
+    Task<bool> AddStudentAsync(Student student);
     bool UpdateStudent(Student student);
     bool DeleteStudent(int studentId);
     Student GetStudent(int studentId);

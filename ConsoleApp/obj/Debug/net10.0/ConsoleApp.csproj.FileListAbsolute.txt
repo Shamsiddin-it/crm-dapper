@@ -24,3 +24,4 @@ C:\Users\Shamsiddin\Desktop\crm-dapper\ConsoleApp\obj\Debug\net10.0\refint\Conso
 C:\Users\Shamsiddin\Desktop\crm-dapper\ConsoleApp\obj\Debug\net10.0\ConsoleApp.pdb
 C:\Users\Shamsiddin\Desktop\crm-dapper\ConsoleApp\obj\Debug\net10.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\Shamsiddin\Desktop\crm-dapper\ConsoleApp\obj\Debug\net10.0\ref\ConsoleApp.dll
+C:\Users\Shamsiddin\Desktop\crm-dapper\ConsoleApp\obj\Debug\net10.0\ConsoleApp.sourcelink.json
